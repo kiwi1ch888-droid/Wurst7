@@ -149,3 +149,9 @@ jobs:
           --ref master \
           -f mc_version="$mc_version" \
           -f mods="wurst"
+
+            - name: Upload Mod Jar
+        uses: actions/upload-artifact@v4
+        with:
+          name: Wurst-Clean-Jar
+          path: build/libs/*.jar
