@@ -154,4 +154,4 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: Wurst-Clean-Jar
-          path: build/libs/*.jar
+          path: build/libs/
